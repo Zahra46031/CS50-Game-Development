@@ -22,11 +22,7 @@ NONE = 4            -- no blocks this row
 
 LevelMaker = Class{}
 
---[[
-    Creates a table of Bricks to be returned to the main game, with different
-    possible ways of randomizing rows and columns of bricks. Calculates the
-    brick colors and tiers to choose based on the level passed in.
-]]
+
 function LevelMaker.createMap(level)
     local bricks = {}
 
